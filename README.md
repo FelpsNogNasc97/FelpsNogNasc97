@@ -74,7 +74,8 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 
 ## Octógono de Habilidades
 
-[Uploading read.me.ht<!DOCTYPE html>
+"html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -134,7 +135,7 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 </body>
 
 </html>
-ml…]()
+""
 
 ## Contato
 
