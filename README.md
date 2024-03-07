@@ -74,68 +74,52 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 
 ## Octógono de Habilidades
 
-"html
-<!DOCTYPE html>
-<html lang="en">
+<div style="max-width: 600px;">
+    <canvas id="habilidades" width="400" height="400"></canvas>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-
-<body>
-    
-
-    <div style="max-width: 600px;">
-        <canvas id="habilidades" width="400" height="400"></canvas>
-    </div>
-
-    <script>
-        var ctx = document.getElementById('habilidades').getContext('2d');
-        var myChart = new Chart(ctx, {
-            type: 'radar',
-            data: {
-                labels: ['Desenvolvimento Pessoal e Profissional', 'Infraestrutura e Redes', 'Banco de Dados e Big Data', 'Desenvolvimento de Software', 'Gerenciamento de Projetos e Versionamento', 'Cloud Computing', 'Linguagem e Comunicação', 'Habilidades Analíticas'],
-                datasets: [{
-                    label: 'Nível de Habilidade',
-                    data: [8, 2, 2, 2, 3, 1, 4, 7],
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgba(54, 162, 235, 1)',
-                    borderWidth: 2
-                }]
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('habilidades').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: ['Desenvolvimento Pessoal e Profissional', 'Infraestrutura e Redes', 'Banco de Dados e Big Data', 'Desenvolvimento de Software', 'Gerenciamento de Projetos e Versionamento', 'Cloud Computing', 'Linguagem e Comunicação', 'Habilidades Analíticas'],
+            datasets: [{
+                label: 'Nível de Habilidade',
+                data: [8, 2, 2, 2, 3, 1, 4, 7],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            scale: {
+                ticks: {
+                    display: false,
+                    beginAtZero: true,
+                    max: 10
+                },
+                pointLabels: {
+                    fontSize: 16, // Altera o tamanho da fonte para 16px
+                    fontStyle: 'bold' // Torna a fonte em negrito
+                }
             },
-            options: {
-                scale: {
-                    ticks: {
-                        display: false,
-                        beginAtZero: true,
-                        max: 10
-                    },
-                    pointLabels: {
-                        fontSize: 16, // Altera o tamanho da fonte para 16px
-                        fontStyle: 'bold' // Torna a fonte em negrito
-                    }
-                },
-                legend: {
-                    display: false
-                },
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
+            legend: {
+                display: false
+            },
+            layout: {
+                padding: {
+                    left: 10,
+                    right: 10,
+                    top: 10,
+                    bottom: 10
                 }
             }
-        });
-    </script>
-</body>
+        }
+    });
+</script>
 
-</html>
-""
 
 ## Contato
 
