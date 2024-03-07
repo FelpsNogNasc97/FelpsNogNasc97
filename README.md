@@ -73,7 +73,8 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 - Excel Avançado
 
 ## Octógono de Habilidades
-<!DOCTYPE html>
+
+[Uploading read.me.ht<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -84,7 +85,7 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 </head>
 
 <body>
-    <h1>Meu Portfólio</h1>
+    
 
     <div style="max-width: 600px;">
         <canvas id="habilidades" width="400" height="400"></canvas>
@@ -112,7 +113,8 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
                         max: 10
                     },
                     pointLabels: {
-                        fontSize: 14
+                        fontSize: 16, // Altera o tamanho da fonte para 16px
+                        fontStyle: 'bold' // Torna a fonte em negrito
                     }
                 },
                 legend: {
@@ -132,12 +134,12 @@ Olá! Meu nome é Felipe Nogueira e estou em processo de transição de carreira
 </body>
 
 </html>
+ml…]()
 
 ## Contato
 
-📧 Email: [seuemail@example.com](mailto:seuemail@example.com)
-
-🔗 LinkedIn: [Felipe Nogueira](https://www.linkedin.com/in/seuusername/)
+📧 Email: fnogueiradnasc@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/felipe-nogueira-b771b8151/
 
 Fique à vontade para entrar em contato comigo para oportunidades de colaboração ou apenas para trocar ideias!
 
